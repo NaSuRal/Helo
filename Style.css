@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #bd0000;
+    background-color: #ffffff;
+    padding: 10px;
+}
+nav h1{
+    color: #000000;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #bd0000;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.3em;
+}
+nav .onglets a:hover{
+    
+    transition: 1s;
+    color: #bd0000;
+}
+header{
+    background-color: #ffffff;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partie1, .partie2 {
+    padding: 20px;
+    
+}
+.partie1{
+    color: rgb(0, 0, 0);
+    
+}
+.partie1 h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.5em;
+}
+.partie1 p{
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.partie2 img{
+    border-radius: 20%;
+    background-color: #ffffff;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight:600 ;
+
+}
+p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+#cards h1{
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#cards img{
+    margin-top: 50px;
+}
