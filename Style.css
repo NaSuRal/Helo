@@ -153,3 +153,52 @@ button {
     border: none;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 600px){
+
+    nav {
+        display: flex;
+    }
+    nav h1{
+        margin-bottom: 20px;
+    }
+    nav .onglets{ 
+        display: flex;
+        margin-left: 0px;
+    }
+    header .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .partie2{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .partie1{
+        padding: 0;
+    
+        
+    }
+    .partie1 h2{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    .container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        flex-direction: column;
+    }
+    #cards img{
+        width: 80%;
+    }
+}    
